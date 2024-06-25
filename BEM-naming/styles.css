@@ -1,0 +1,27 @@
+/* Base styling for the paragraph block */
+.paragraph {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Styling for the paragraph text element */
+.paragraph__text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Modifier: highlighted */
+.paragraph__text--highlighted {
+    background-color: lightyellow;
+    border-left: 5px solid orange;
+    padding-left: 10px;
+}
+
+/* Modifier: large */
+.paragraph__text--large {
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+}
